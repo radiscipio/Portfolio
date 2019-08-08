@@ -13,7 +13,7 @@ i {
 }
 
 /* Cellphone */
-@media (max-width: 580px) {
+@media (min-device-width: 320px) and (max-device-width: 680px) {
 
   main {
     margin: 0px 23px;
@@ -153,9 +153,14 @@ i {
 }
 
 /* Tablet  */
-@media (min-width: 768px) {
+@media(min-width:768px) and (max-device-width: 1024px) {
+
+  body {
+    background-color: #FFF4E5;
+  }
   main {
     margin: 0px 35px;
+    display: flex;
   }
 
   div.colorblock {
@@ -166,10 +171,13 @@ i {
 
   .colorblock h1 {
     flex-direction: column;
+    letter-spacing: .5px;
+    font-size: 40px;
   }
 
   .colorblock h2 {
     font-size: 20px;
+    letter-spacing: 1.2px;
     padding-bottom: 3px;
     border-bottom: 2px solid #0F4463;
   }
@@ -181,8 +189,92 @@ i {
     padding-bottom: 10px;
   }
 
+  .brand {
+    background-color: ;
+  }
 
+  .projects h2 {
+    border-bottom: 2px solid #0F4463;
+    padding-bottom: 5px;
+  }
+
+  .skills h2 {
+    border-bottom: 2px solid #0F4463;
+    margin-top: 20px;
+    padding-bottom: 5px;
+  }
+
+  .about h2 {
+    border-bottom: 2px solid #0F4463;
+    padding-bottom: 5px;
+  }
+
+  .contact h2 {
+    border-bottom: 2px solid #0F4463;
+    padding-bottom: 5px;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  .skills-icons {
+    display: flex;
+    justify-content: center;
+  }
+
+  i {
+    padding: 30px;
+  }
+
+  section {
+  position: relative;
+  top: 50px;
+  left: 0;
+  right: 0;
+  background-color: #0F4463;
+  }
+
+  div.form {
+    margin: 30px 23px -20px 23px;
+    z-index: 1;
+
+  }
+
+  form.container {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    top: -65px;
+  }
+  input {
+    color: #5E6166;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #0F4463;
+  }
+
+  textarea {
+    color: #5E6166;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #0F4463;
+  }
+
+  #submit {
+    background-color: #0F4463;
+    border-radius: 8px;
+    color: #F0F0F0;
+    height: 8%;
+    margin: 10px;
+    padding: 10px;
+  }
 }
 
 /* Desktop */
-@media (min-width: 1024px)
+@media (min-width: 1024px) and (max-width: 1824px)
