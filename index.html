@@ -1,26 +1,26 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Fontawesome icon styles -->
+<!-- Fontawesome icon styles -->
     <script src="https://kit.fontawesome.com/b6cd473ce3.js"></script>
 
     <title>Robert di Scipio</title>
   </head>
 <body>
-  <!-- Nav -->
-    <nav class="navbar sticky-top navbar-expand-lg fixed top navbar-light" style="background-color:#F0F0F0">
-  <a class="navbar-brand" href="#" style="color:#5E6166">RdS</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<!-- Nav -->
+  <nav class="navbar sticky-top navbar-expand-lg fixed top navbar-light" style="background-color:#F0F0F0">
+    <a class="navbar-brand" href="#">RdS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-  </button>
+      </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav d-flex align-content-end">
       <a class="nav-item nav-link d-flex justify-content-end" href="#">Home</a>
@@ -34,14 +34,23 @@
   <main>
     <div class="title">
       <div class="profile-pic">
-        <img src="css/images/nfAU8fsGRc+2nmBSUwPZoQ_thumb_472.jpg" class= alt="">
+        <img src="https://res.cloudinary.com/radiscipio/image/upload/v1565281026/tjwiwmpiexa2g5s3a4nn.jpg" class="img-mobile" alt="">
       </div>
       <div class="colorblock">
         <h1>Robert di Scipio</h1>
         <h2>Full-Stack Developer | Software Engineer</h2>
+        <div class="main-photo-tablet">
+          <img src="https://res.cloudinary.com/radiscipio/image/upload/v1565287720/lte0j8ekv00wbvxrobw9.jpg" class="img-tablet" alt="">
+        </div>
       </div>
       <p class="brand">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius cum ullam cumque facere, culpa ipsam expedita ex ducimus necessitatibus at, temporibus ea iusto nostrum voluptatibus voluptatem repellat accusantium aperiam? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class ="icons">
+        <a href="https://github.com/radiscipio?tab=repositories"><i class="fab fa-github-square fa-3x"></i></a>
+        <a href="#"><i class="fas fa-envelope fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/radiscipio/"><i class="fab fa-linkedin fa-3x"></i></a>
+      </div>
     </div>
+
 <!-- Projects page  -->
     <div class="projects">
       <h2>Projects</h2>
@@ -55,24 +64,24 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-interval="8000">
               <img src="css/images/UNADJUSTEDNONRAW_thumb_471.jpg" class="d-block w-100" alt="">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Test 1</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5>Mobile Wireframe</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-interval="4000">
               <img src="css/images/UNADJUSTEDNONRAW_thumb_470.jpg" class="d-block w-100" alt="">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Test 2</h5>
+                <h5>Tablet Wireframe</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-interval="4000">
               <img src="css/images/UNADJUSTEDNONRAW_thumb_46f.jpg" class="d-block w-100" alt="">
               <div class="carousel-caption d-none d-md-block">
-                <h5>Test 3</h5>
+                <h5>Desktop Wireframe</h5>
                 <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
               </div>
             </div>
@@ -91,36 +100,49 @@
 <!-- Skills -->
   <div class="skills">
     <h2>Skills</h2>
-    <!-- Add icons for stuff like html css & whatnot -->
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quia consequuntur numquam veritatis recusandae quaerat dolores quae sapiente rerum. Placeat at blanditiis nesciunt, deserunt hic rem. Debitis enim totam, itaque!</p>
+  </div>
+  <!-- Skills Icons -->
+  <div class="skills-icon"
+    <i class="fab fa-html5 fa-3x"></i>
+    <i class="fab fa-css3-alt fa-3x"></i>
+    <i class="fab fa-js fa-3x"></i>
+    <i class="fab fa-react fa-3x"></i>
+    <i class="fab fa-node-js fa-3x"></i>
+
+
   </div>
 <!-- About Page -->
   <div class="about">
     <h2>About Me</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dolor aliquam, quod quaerat maiores eius commodi aut perspiciatis hic iure, repellat id error quibusdam at nihil dolores reprehenderit beatae voluptates?</p>
   </div>
-  <!-- Contact Fom -->
+<!-- Contact Page -->
   <div class="contact">
     <h2>Contact Me</h2>
     <p>Looking to hire me? Oh thank God, please give me money. You can also find me on LinkedIn and my other work on GitHub!</p>
+<!-- Icons -->
     <div class ="icons">
-      <i class="fab fa-github-square fa-3x"></i>
-      <i class="fas fa-envelope fa-3x"></i>
-      <i class="fab fa-linkedin fa-3x"></i>
+      <a href="https://github.com/radiscipio?tab=repositories"><i class="fab fa-github-square fa-3x"></i></a>
+      <a href="#"><i class="fas fa-envelope fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/radiscipio/"><i class="fab fa-linkedin fa-3x"></i></a>
     </div>
+  </div>
+</main>
+<section>
+  <!-- Contact Form -->
+
+  <div class="form">
     <form class="container">
       <input id="name" type="text" placeholder="Name">
       <input id="email" type="text" placeholder="Email">
       <input id="subject" type="text" placeholder="Subject">
-      <textarea cols="20" rows="5" id="message" type="text" placeholder="Message"></textarea>
+      <textarea cols="10" rows="5" id="message" type="text" placeholder="Message"></textarea>
       <button id="submit" type="submit">Submit</button>
-  </div>
-  </main>
-  <footer>
-   <div>
-     <h4>Thanks for stopping by!</h4>
-   </div>
-  </footer>
+    </form>
+    </div>
+</section>
+  <!-- JavaScript Scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
