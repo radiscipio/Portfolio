@@ -10,6 +10,10 @@ div#navbarNavAltMarkup {
   justify-content: flex-end;
 }
 
+a#nav-buttons{
+  font-family: 'Lato', sans-serif;
+
+}
 nav.navbar {
   background-color: #F0F0F0;
 }
@@ -183,7 +187,6 @@ carousel-control-prev {
   a.navbar-brand {
     letter-spacing: .5px;
     font-size: 25px;
-
   }
 
   div.colorblock {
@@ -358,7 +361,7 @@ carousel-control-prev {
     margin: 20px;
     font-style: italic;
   }
-  
+
   div.carousel-inner {
     justify-content: center!important;
   }

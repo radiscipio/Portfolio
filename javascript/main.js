@@ -5,9 +5,3 @@
 // let id = '1Xsouj8zOSQHX0Y-iL3IvBJVg55WxV0FOzMDVx-8sdtg'
 //
 // let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
-let skillsButton = document.getElementById('skills')
-
-skillsButton.addEventListener('click', function() {
-  let skills = document.querySelector('#skills-page')
-  skills.scrollIntoView()
-})
