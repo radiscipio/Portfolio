@@ -188,7 +188,7 @@ carousel-control-prev {
 }
 
 /* Tablet  */
-@media (min-width:720px) and (max-device-width: 1023px) {
+@media (min-width:601px) and (max-device-width: 1023px) {
 
   #body {
     background-color: #06293E;
@@ -322,7 +322,7 @@ carousel-control-prev {
 }
 
 /* Desktop */
-@media (min-width: 1024px) and (max-width: 1824px) {
+@media (min-width: 1024px) {
 
   #body {
   background-color: #06293E;
@@ -504,5 +504,4 @@ carousel-control-prev {
     margin: 10px;
     padding: 10px;
   }
-
 }
