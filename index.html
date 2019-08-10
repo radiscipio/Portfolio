@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/style.css">
-
+<!-- Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i&display=swap" rel="stylesheet">
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -14,25 +15,26 @@
 
     <title>Robert di Scipio</title>
   </head>
-<body>
+<body id="body">
 <!-- Bootstrap Nav -->
-  <nav class="navbar sticky-top navbar-expand-lg fixed top navbar-light" style="background-color:#F0F0F0">
+  <nav class="navbar sticky-top navbar-expand-lg fixed top navbar-light">
     <a class="navbar-brand" href="#">RdS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
       </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav d-flex align-content-end">
-      <a class="nav-item nav-link d-flex justify-content-end" href="#">Home</a>
-      <a class="nav-item nav-link d-flex justify-content-end" href="#">About</a>
-      <a class="nav-item nav-link d-flex justify-content-end" href="#">My Work</a>
-      <a class="nav-item nav-link d-flex justify-content-end" href="#">Contact</a>
+      <a id="nav-buttons" class="nav-item nav-link d-flex justify-content-end" href="#home">Home</a>
+      <a id="nav-buttons" class="nav-item nav-link d-flex justify-content-end" href="#projects">Projects</a>
+      <a id="nav-buttons" class="nav-item nav-link d-flex justify-content-end" href="#skills">Skills</a>
+      <a id="nav-buttons" class="nav-item nav-link d-flex justify-content-end" href="#about">About</a>
+      <a id="nav-buttons" class="nav-item nav-link d-flex justify-content-end" href="#contact">Contact</a>
     </div>
   </div>
     </nav>
-    <!-- Load Screen -->
+<!-- On Load Screen -->
   <main>
-    <div class="title">
+    <div id="home" class="title">
       <div class="profile-pic">
         <img src="https://res.cloudinary.com/radiscipio/image/upload/v1565281026/tjwiwmpiexa2g5s3a4nn.jpg" class="img-mobile" alt="">
       </div>
@@ -42,18 +44,19 @@
         <div class="main-photo-tablet">
           <img src="https://res.cloudinary.com/radiscipio/image/upload/v1565287720/lte0j8ekv00wbvxrobw9.jpg" class="img-tablet" alt="">
         </div>
+        </div>
+        <div class="main-photo-desktop">
+          <img src="https://res.cloudinary.com/radiscipio/image/upload/v1565198490/le3wnihscolorta66ejw.jpg" class="img-desktop" alt="">
+        </div>
       </div>
       <p class="brand">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eius cum ullam cumque facere, culpa ipsam expedita ex ducimus necessitatibus at, temporibus ea iusto nostrum voluptatibus voluptatem repellat accusantium aperiam? Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
       </div>
-    </div>
-
 <!-- Projects page  -->
-    <div class="projects">
+    <div id="projects-page" class="projects">
       <h2>Projects</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi totam illum porro omnis, et aut commodi sint dignissimos quasi veritatis fugit ipsa, enim repellat a at natus esse, aspernatur vitae!</p>
 <!-- Bootstrap Carousel -->
-        <!-- <div class="bd-example">
+      <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -91,11 +94,10 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
+          </div>
         </div>
-      </div>
-    </div> -->
 <!-- Skills -->
-  <div class="skills">
+  <div id="skills-page" class="skills">
     <h2>Skills</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quia consequuntur numquam veritatis recusandae quaerat dolores quae sapiente rerum. Placeat at blanditiis nesciunt, deserunt hic rem. Debitis enim totam, itaque!</p>
   </div>
@@ -104,12 +106,12 @@
     <i class="fab fa-html5 fa-3x"></i>
     <i class="fab fa-css3-alt fa-3x"></i>
     <i class="fab fa-js fa-3x"></i>
-    <i class="fab fa-react fa-3x"></i>
     <i class="fab fa-node-js fa-3x"></i>
+    <i class="fab fa-react fa-3x"></i>
     <i class="fab fa-bootstrap fa-3x"></i>
   </div>
 <!-- About Page -->
-  <div class="about">
+  <div id="about-page" class="about">
     <h2>About Me</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos dolor aliquam, quod quaerat maiores eius commodi aut perspiciatis hic iure, repellat id error quibusdam at nihil dolores reprehenderit beatae voluptates?</p>
     <div class ="icons about-icons">
@@ -122,14 +124,15 @@
 
   </div>
 <!-- Contact Page -->
-  <div class="contact">
+  <div id="contact-page" class="contact">
     <h2>Contact Me</h2>
     <p>Looking to hire me? Oh thank God, please give me money. You can also find me on LinkedIn and my other work on GitHub!</p>
 <!-- Contact Me Icons -->
     <div class ="icons contact-icons">
-      <a href="https://github.com/radiscipio?tab=repositories"><i class="fab fa-github-square fa-3x"></i></a>
-      <a href="#"><i class="fas fa-envelope fa-3x"></i></a>
       <a href="https://www.linkedin.com/in/radiscipio/"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href="#"><i class="fas fa-envelope fa-3x"></i></a>
+      <a href="https://github.com/radiscipio?tab=repositories"><i class="fab fa-github-square fa-3x"></i></a>
+      <a href="https://codepen.io/radiscipio/"><i class="fab fa-codepen fa-3x"></i></a>
     </div>
   </div>
 </main>
@@ -138,9 +141,9 @@
 
   <div class="form">
     <form class="container">
-      <input id="name" type="text" placeholder="Name">
+      <input id="first-name" type="text" placeholder="First Name">
+      <input id="lastname" type="text" placeholder="Last Name">
       <input id="email" type="text" placeholder="Email">
-      <input id="subject" type="text" placeholder="Subject">
       <textarea cols="10" rows="5" id="message" type="text" placeholder="Message"></textarea>
       <button id="submit" type="submit">Submit</button>
     </form>
