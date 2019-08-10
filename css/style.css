@@ -358,6 +358,7 @@ carousel-control-prev {
     margin: 20px;
     font-style: italic;
   }
+  
   div.carousel-inner {
     justify-content: center!important;
   }
