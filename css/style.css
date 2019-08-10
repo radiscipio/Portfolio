@@ -22,17 +22,10 @@ i {
   color: black;
 }
 
-.bd-example {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
 
-.bd-example img{
-  width: 500px;
-  height: 500px;
+carousel-control-prev {
+  margin-left: 40px;
 }
-
 /* Cellphone */
 @media (min-device-width: 200px) and (max-device-width: 600px) {
   #body {
@@ -351,13 +344,37 @@ i {
   .colorblock > h1 {
     padding: 30px 30px 10px 30px;
     letter-spacing: .3px;
+    font-size: 48px;
   }
 
   .colorblock > h2 {
     padding: 10px 30px 0px 30px;
-    font-size: 24px;
+    font-size: 28px;
   }
 
+  p.brand {
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+  }
+  div.carousel-inner {
+    justify-content: center!important;
+  }
+
+  .carousel-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .carousel-item img{
+    margin-top: 20px;
+    padding: 0px 150px;
+    height: 500px!important;
+    width: auto 800px!important;
+
+  }
   .projects h2 {
     border-bottom: 3px solid #06293E;
     font-size: 35px;
