@@ -51,6 +51,8 @@ _____
 ____________________
 
 > I used W3Schools and StackOverflow for some of my troubleshooting problems.
+>
+> I also used code from Joe Keohan to build the cards/ API call
 
 
 ##Post Build

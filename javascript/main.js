@@ -1,6 +1,6 @@
 // API Card Call
 
-
+// This was the work of Joe Keohan and not my own. He is much smarter than I am. 
 
 let originalURL = 'https://docs.google.com/spreadsheets/d/1Xsouj8zOSQHX0Y-iL3IvBJVg55WxV0FOzMDVx-8sdtg/edit#gid=0'
 
