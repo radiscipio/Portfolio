@@ -18,18 +18,43 @@ nav.navbar {
   background-color: #F0F0F0;
 }
 
-img {
-  display: none;
-}
-
 i {
   color: black;
 }
 
-carousel-control-prev {
-  margin-left: 40px;
+div.col {
+  margin: 0 auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin:0 !important;
+    text-align: center;
+}
+
+.card .card-title {
+  text-align:center;
+}
+
+.card .card-image {
+/*     border:3px solid green; */
+
+}
+.card .card-image img {
+  height:180px;
+  object-fit:contain;
+}
 
 /* Cellphone */
 @media (min-device-width: 200px) and (max-device-width: 600px) {
@@ -76,6 +101,14 @@ carousel-control-prev {
     border-radius: 80px;
     width: 150px;
     height: 150px;
+  }
+
+  .img-tablet {
+    display: none;
+  }
+
+  .img-desktop {
+    display: none;
   }
 
   p.brand {
@@ -233,6 +266,14 @@ carousel-control-prev {
     padding-bottom: 10px;
   }
 
+  .img-mobile {
+    display: none;
+  }
+
+  .img-desktop {
+    display: none;
+  }
+
   .projects h2 {
     border-bottom: 2px solid #06293E;
     padding: 0px 0px 5px 10px;
@@ -336,7 +377,6 @@ carousel-control-prev {
   a#nav-buttons {
     padding: 0px 15px;
     font-size: 18px;
-    border-right: 1px solid #06293E;
   }
 
   a#nav-buttons:last-of-type {
@@ -356,6 +396,14 @@ carousel-control-prev {
     display: block;
     height: 100%;
     width: 100%;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .img-tablet {
+    display: none;
   }
 
   .colorblock {
@@ -392,23 +440,6 @@ carousel-control-prev {
     font-style: italic;
   }
 
-  div.carousel-inner {
-    justify-content: center!important;
-  }
-
-  .carousel-item {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  .carousel-item img{
-    margin-top: 20px;
-    padding: 0px 150px;
-    height: 500px!important;
-    width: auto 800px!important;
-
-  }
   .projects h2 {
     border-bottom: 3px solid #06293E;
     font-size: 35px;
