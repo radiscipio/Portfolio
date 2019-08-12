@@ -1,6 +1,6 @@
 // API Card Call
 
-// This was the work of Joe Keohan and not my own. He is much smarter than I am. 
+// This was the work of Joe Keohan and not my own. He is much smarter than I am.
 
 let originalURL = 'https://docs.google.com/spreadsheets/d/1Xsouj8zOSQHX0Y-iL3IvBJVg55WxV0FOzMDVx-8sdtg/edit#gid=0'
 
@@ -123,15 +123,8 @@ function createCards(projects){
 //     cardTitle.classList.add('card-title');
 //     cardTitle.innerText = this.title
 //
-//     // const cardContent = new CardContent(this.description)
-//     // console.log('this is cardConten ', cardContent)
-//     // col.appendChild(cardTitle)
 //     col.appendChild(image)
-//    // card.appendChild(cardTitle)
-//    //  card.appendChild(cardImage)
-//
-//     // card.appendChild(cardContent.render())
-//     // col.appendChild(card)
+/
 //
 //     return col
 //   }
