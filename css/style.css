@@ -24,6 +24,7 @@ i {
 
 div.col {
   margin: 0 auto;
+  display: flex;
 }
 
 .row {
@@ -34,21 +35,19 @@ div.col {
 .card {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     height: 100%;
     width: 100%;
-    margin:0 !important;
+    margin: 10px;
     text-align: center;
 }
 
 .card .card-title {
   text-align:center;
+  font-size: 24px;
 }
 
-.card .card-image {
-/*     border:3px solid green; */
-
-}
 .card .card-image img {
   height:180px;
   object-fit:contain;

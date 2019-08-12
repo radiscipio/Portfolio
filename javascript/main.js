@@ -124,7 +124,7 @@ function createCards(projects){
 //     cardTitle.innerText = this.title
 //
 //     col.appendChild(image)
-/
+//
 //
 //     return col
 //   }
