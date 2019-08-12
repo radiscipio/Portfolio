@@ -77,6 +77,11 @@ div.col {
     color: black;
  }
 
+ div.colorblock > h1 {
+   font-size: 30px;
+   text-align: center;
+ }
+
   div.colorblock > h2 {
     text-align: center;
   }
