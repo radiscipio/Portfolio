@@ -116,10 +116,15 @@ div.col {
     padding: 15px;
     text-align: center;
   }
-  .skills-icon {
+  .skills-icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  .dev-icons {
+    height: 45px;
+    width: 45px;
+    margin: 15px;
   }
   .projects>h2 {
     font-size: 30px;
@@ -258,6 +263,12 @@ div.col {
   .skills-icons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+  .dev-icons {
+    height: 65px;
+    width: 65px;
+    margin: 25px;
   }
 
   section {
