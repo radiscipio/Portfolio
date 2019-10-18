@@ -97,6 +97,8 @@ div.col {
     justify-content: center;
     background-color: #F0F0F0;
     padding: 15px;
+    margin-top: 50px;
+
   }
   img.img-mobile {
     display: block;
@@ -111,7 +113,6 @@ div.col {
     display: none;
   }
   p.brand {
-    color: #5E6166;
     font-family: 'Lato', sans-serif;
     padding: 15px;
     text-align: center;
@@ -138,6 +139,7 @@ div.col {
     padding: 0px 10px;
     text-align: center;
     z-index: 1;
+    margin-top: 50px;
   }
   p {
     padding: 0px 10px;
@@ -219,6 +221,7 @@ div.col {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 62px;
   }
   .colorblock h1 {
     flex-direction: column;
@@ -246,10 +249,12 @@ div.col {
   .projects h2 {
     border-bottom: 2px solid #06293E;
     padding: 0px 0px 5px 10px;
+    margin-top: 50px;
   }
   .contact h2 {
     border-bottom: 2px solid #06293E;
     padding: 0px 0px 5px 10px;
+    margin-top: 50px;
   }
   p {
     padding: 5px 10px;
@@ -362,6 +367,7 @@ div.col {
     flex: none;
     flex-wrap: wrap;
     padding-bottom: 300px;
+    margin-top: 60px;
   }
   .colorblock>h1 {
     padding: 30px 30px 10px 30px;
@@ -382,7 +388,6 @@ div.col {
     font-family: 'Crimson Text', sans-serif;
     text-align: center;
     margin: 20px;
-    font-style: italic;
   }
   .projects h2 {
     border-bottom: 3px solid #06293E;
