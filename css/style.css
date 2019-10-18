@@ -10,7 +10,7 @@ div#navbarNavAltMarkup {
   justify-content: flex-end;
 }
 
-a#nav-buttons{
+a#nav-buttons {
   font-family: 'Lato', sans-serif;
 }
 
@@ -19,7 +19,7 @@ nav.navbar {
 }
 
 i {
-  color: black;
+  padding: 0;
 }
 
 div.col {
@@ -33,28 +33,35 @@ div.col {
 }
 
 .card {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: 10px;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 .card .card-title {
-  text-align:center;
+  text-align: center;
   font-size: 24px;
 }
 
 .card .card-image img {
-  height:180px;
-  object-fit:contain;
+  height: 180px;
+  object-fit: contain;
+}
+
+.fab, .fas {
+  color: black;
+  padding: 40px;
 }
 
 /* Cellphone */
-@media (min-device-width: 200px) and (max-device-width: 600px) {
+
+@media (min-width: 200px) and (max-width: 600px) {
   #body {
     background-color: #06293E;
   }
@@ -62,11 +69,9 @@ div.col {
     margin: 0px 23px;
     background-color: #F0F0F0;
   }
-
   a.nav-item.nav-link.d-flex.justify-content-end {
     color: #5E6166;
   }
-
   div.colorblock {
     display: flex;
     flex-wrap: wrap;
@@ -75,105 +80,75 @@ div.col {
     border-top: 1px solid #06293E;
     border-bottom: 1px solid #06293E;
     color: black;
- }
-
- div.colorblock > h1 {
-   font-size: 30px;
-   text-align: center;
- }
-
-  div.colorblock > h2 {
+  }
+  div.colorblock>h1 {
+    font-size: 30px;
     text-align: center;
   }
-
-  div > h2 {
+  div.colorblock>h2 {
+    text-align: center;
+  }
+  div>h2 {
     font-size: 22px;
     padding-top: 10px;
   }
-
   div.profile-pic {
     display: flex;
     justify-content: center;
     background-color: #F0F0F0;
     padding: 15px;
   }
-
   img.img-mobile {
     display: block;
     border-radius: 80px;
     width: 150px;
     height: 150px;
   }
-
   .img-tablet {
     display: none;
   }
-
   .img-desktop {
     display: none;
   }
-
   p.brand {
-   color: #5E6166;
-   font-family: 'Lato', sans-serif;
-   padding: 15px;
-   text-align: center;
- }
-
-  .skills > h2 {
-    font-size: 30px;
-    border-bottom: 2px solid #06293E;
+    color: #5E6166;
+    font-family: 'Lato', sans-serif;
+    padding: 15px;
     text-align: center;
-    padding-right: 10px;
   }
-
   .skills-icon {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-
-  .about > h2 {
+  .projects>h2 {
     font-size: 30px;
-    border-bottom: 2px solid #06293E;
     padding: 0px 10px;
     text-align: center;
+    margin-bottom: 30px;
   }
-
-  .projects > h2 {
-    font-size: 30px;
-    border-bottom: 2px solid #06293E;
-    padding: 0px 10px;
-    text-align: center;
-  }
-
-  .contact > h2 {
+  .contact>h2 {
     font-size: 30px;
     border-bottom: 2px solid #06293E;
     padding: 0px 10px;
     text-align: center;
     z-index: 1;
   }
-
   p {
     padding: 0px 10px;
     font-family: 'Lato', sans-serif;
   }
-
   section {
-  position: relative;
-  top: 50px;
-  left: 0;
-  right: 0;
-  background-color: #06293E;
+    position: relative;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #06293E;
   }
-
   div.form {
     margin: 30px 23px 0px 23px;
     z-index: 1;
-
   }
-
   form.container {
     background-color: #F0F0F0;
     display: flex;
@@ -185,14 +160,12 @@ div.col {
     border: 1px solid #06293E;
     border-radius: 8px;
   }
-
   input {
     color: #5E6166;
     padding: 10px;
     border-radius: 8px;
     border: 1px solid #06293E;
   }
-
   textarea {
     color: #5E6166;
     margin: 5px;
@@ -200,7 +173,6 @@ div.col {
     border-radius: 8px;
     border: 1px solid #06293E;
   }
-
   #submit {
     background-color: #06293E;
     border-radius: 8px;
@@ -210,126 +182,95 @@ div.col {
     margin: 10px;
     padding: 10px;
   }
-
   .icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  i {
-    padding: 10px;
-    margin: 30px 0px;
+  .fab, .fas {
+    color: black;
+    padding: 40px;
   }
+
 }
 
 /* Tablet  */
-@media (min-width:601px) and (max-device-width: 1023px) {
 
+@media (min-width:601px) and (max-width: 1023px) {
   #body {
     background-color: #06293E;
   }
-
   main {
     margin: 0px 35px;
     display: flex;
     background-color: #F0F0F0;
   }
-
   a.navbar-brand {
     letter-spacing: .5px;
     font-size: 25px;
-
   }
-
   div.colorblock {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-
   .colorblock h1 {
     flex-direction: column;
     letter-spacing: .5px;
     font-size: 40px;
   }
-
   .colorblock h2 {
     font-size: 20px;
     letter-spacing: 1.2px;
     padding-bottom: 3px;
     border-bottom: 2px solid #06293E;
   }
-
   .main-photo-tablet img.img-tablet {
     display: block;
     width: 100%;
     height: 100%;
     padding-bottom: 10px;
   }
-
   .img-mobile {
     display: none;
   }
-
   .img-desktop {
     display: none;
   }
-
   .projects h2 {
     border-bottom: 2px solid #06293E;
     padding: 0px 0px 5px 10px;
   }
-
-  .skills h2 {
-    border-bottom: 2px solid #06293E;
-    margin-top: 20px;
-    padding: 0px 0px 5px 10px;
-  }
-
-  .about h2 {
-    border-bottom: 2px solid #06293E;
-    padding: 0px 0px 5px 10px;
-  }
-
   .contact h2 {
     border-bottom: 2px solid #06293E;
     padding: 0px 0px 5px 10px;
   }
-
   p {
     padding: 5px 10px;
     font-family: 'Lato', sans-serif;
   }
-
   .icons {
     display: flex;
     justify-content: center;
     padding: 10px 0px;
   }
-
   .skills-icons {
     display: flex;
     justify-content: center;
   }
 
-  i {
-    padding: 30px;
-  }
-
   section {
-  position: relative;
-  top: 50px;
-  left: 0;
-  right: 0;
-  background-color: #06293E;
+    position: relative;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #06293E;
   }
-
   div.form {
     margin: 0px 23px -20px 23px;
     z-index: 1;
   }
-
   form.container {
     background-color: #F0F0F0;
     border: 1px solid #06293E;
@@ -346,7 +287,6 @@ div.col {
     border-radius: 8px;
     border: 1px solid #06293E;
   }
-
   textarea {
     color: #5E6166;
     margin: 5px;
@@ -354,7 +294,6 @@ div.col {
     border-radius: 8px;
     border: 1px solid #06293E;
   }
-
   #submit {
     background-color: #06293E;
     border-radius: 8px;
@@ -363,15 +302,19 @@ div.col {
     margin: 10px;
     padding: 10px;
   }
+
+  .fab, .fas {
+    color: black;
+    padding: 40px;
+  }
 }
 
 /* Desktop */
+
 @media (min-width: 1024px) {
-
   #body {
-  background-color: #06293E;
+    background-color: #06293E;
   }
-
   a.navbar-brand {
     letter-spacing: 1px;
     font-size: 30px;
@@ -380,34 +323,27 @@ div.col {
     padding: 0px 15px;
     font-size: 18px;
   }
-
   a#nav-buttons:last-of-type {
     border: none;
   }
-
   main {
     margin: 0px 50px;
     background-color: #F0F0F0;
   }
-
   .title {
     display: flex;
   }
-
   img.img-desktop {
     display: block;
     height: 100%;
     width: 100%;
   }
-
   .img-mobile {
     display: none;
   }
-
   .img-tablet {
     display: none;
   }
-
   .colorblock {
     display: flex;
     flex-direction: column;
@@ -416,24 +352,20 @@ div.col {
     flex-wrap: wrap;
     padding-bottom: 300px;
   }
-
-  .colorblock > h1 {
+  .colorblock>h1 {
     padding: 30px 30px 10px 30px;
     letter-spacing: .3px;
     font-size: 48px;
   }
-
-  .colorblock > h2 {
+  .colorblock>h2 {
     padding: 10px 30px 0px 30px;
     font-size: 28px;
   }
-
   p {
-    padding: 5px 15px;
+    padding: 5px 35px;
     font-size: 20px;
     font-family: 'Lato', sans-serif;
   }
-
   p.brand {
     font-size: 25px;
     font-family: 'Crimson Text', sans-serif;
@@ -441,67 +373,54 @@ div.col {
     margin: 20px;
     font-style: italic;
   }
-
   .projects h2 {
     border-bottom: 3px solid #06293E;
     font-size: 35px;
-    padding: 10px 15px 5px 10px;
-  }
-
-  .skills h2 {
-    border-bottom: 3px solid #06293E;
-    font-size: 35px;
-    margin-top: 20px;
-    padding: 10px 15px 5px 10px;
-  }
-
-  .about h2 {
-    border-bottom: 3px solid #06293E;
-    font-size: 35px;
-    padding: 10px 15px 5px 10px;
+    padding: 10px 15px 5px 20px;
   }
 
   .contact h2 {
     border-bottom: 3px solid #06293E;
     font-size: 35px;
-    padding: 10px 15px 5px 10px;
+    padding: 10px 15px 5px 20px;
+    margin-top: 50px;
   }
-
   .icons {
     display: flex;
     justify-content: center;
-    padding: 10px 0px;
-    }
-
+  }
   .skills-icons {
     display: flex;
     justify-content: center;
-    }
-
-  i {
-    padding: 40px;
+    flex-wrap: wrap;
   }
 
+  .dev-icons {
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+  }
+  .fab, .fas {
+    color: black;
+    padding: 40px;
+  }
   .brand {
     font-size: 22px;
     padding: 20px;
   }
-
   section {
-  position: relative;
-  margin: 0 auto;
-  top: 50px;
-  left: 0;
-  right: 0;
-  background-color: #06293E;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    background-color: #06293E;
   }
-
   div.form {
     font-family: 'Lato', sans-serif;
     margin: 30px 23px 0px 23px;
     z-index: 1;
   }
-
   form.container {
     background-color: #F0F0F0;
     border: 1px solid #06293E;
@@ -513,22 +432,19 @@ div.col {
     position: relative;
     top: -100px;
   }
-
   input {
     color: #5E6166;
     padding: 10px;
     border-radius: 8px;
     border: 1px solid #06293E;
   }
-
   textarea {
     color: #5E6166;
     margin: 5px;
     padding: 10px;
     border-radius: 8px;
-    border: 1px solid ;
+    border: 1px solid;
   }
-
   #submit {
     background-color: #06293E;
     border-radius: 8px;
