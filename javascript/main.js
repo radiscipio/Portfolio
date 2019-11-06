@@ -16,7 +16,7 @@ fetch(source)
       return {
         title: d.gsx$title.$t,
         image: d.gsx$image.$t,
-        description: d.gsx$description.$t
+        description: d.gsx$description.$t,
       }
     })
     console.log('this is  projects', projects)
@@ -29,6 +29,7 @@ class Card {
     this.title = obj.title
     this.image = obj.image
     this.description = obj.description
+    this.link = obj.link
   }
 
   render() {
@@ -44,7 +45,11 @@ class Card {
     const image = document.createElement('img')
     image.setAttribute('src', this.image)
 
-    const cardTitle = document.createElement('span')
+    const link = document.createElement('a')
+    link.setAttribute('href', this.link)
+
+    const cardTitle = document.createElement('a')
+    cardTitle.setAttribute('href', this.title)
     cardTitle.classList.add('card-title');
     cardTitle.innerText = this.title
 
@@ -52,6 +57,7 @@ class Card {
     cardImage.appendChild(image)
     card.appendChild(cardTitle)
     card.appendChild(cardImage)
+    card.appendChild(link)
 
     card.appendChild(cardContent.render())
     col.appendChild(card)
