@@ -25,6 +25,7 @@ i {
 div.col {
   margin: 0 auto;
   display: flex;
+  padding: 10px;
 }
 
 .row {
@@ -39,7 +40,7 @@ div.col {
   justify-content: center;
   height: 100%;
   width: 100%;
-  margin: 10px;
+  margin: 15px;
   text-align: center;
   box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
 }
@@ -395,7 +396,6 @@ div.col {
     font-size: 35px;
     padding: 10px 15px 5px 20px;
   }
-
   .contact h2 {
     border-bottom: 3px solid #06293E;
     font-size: 35px;
@@ -405,13 +405,13 @@ div.col {
   .icons {
     display: flex;
     justify-content: center;
+    padding: 0px 15px;
   }
   .skills-icons {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-
   .dev-icons {
     width: 75px;
     height: 75px;
@@ -420,6 +420,11 @@ div.col {
   .fab, .fas {
     color: black;
     padding: 40px;
+    transition: 1s all;
+  }
+  i:hover {
+    transform: scale(1.2);
+    color: #06293E;
   }
   .brand {
     font-size: 22px;
