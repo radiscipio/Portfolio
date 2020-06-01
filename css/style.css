@@ -16,6 +16,7 @@ a#nav-buttons {
 
 nav.navbar {
   background-color: #F0F0F0;
+  padding: 0px 15px;
 }
 
 i {
