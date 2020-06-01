@@ -19,52 +19,11 @@ fetch(source)
         description: d.gsx$description.$t,
       }
     })
-    console.log('this is  projects', projects)
     createCards(projects)
   })
 
 
-class Card {
-  constructor(obj) {
-    this.title = obj.title
-    this.image = obj.image
-    this.description = obj.description
-    this.link = obj.link
-  }
-
-  render() {
-    const col = document.createElement('div')
-    col.classList.add('col', 's12', 'm3');
-
-    const card = document.createElement('div')
-    card.classList.add('card');
-
-    const cardImage = document.createElement('div')
-    cardImage.classList.add('card-image');
-
-    const image = document.createElement('img')
-    image.setAttribute('src', this.image)
-
-    const link = document.createElement('a')
-    link.setAttribute('href', this.link)
-
-    const cardTitle = document.createElement('a')
-    cardTitle.setAttribute('href', this.title)
-    cardTitle.classList.add('card-title');
-    cardTitle.innerText = this.title
-
-    const cardContent = new CardContent(this.description)
-    cardImage.appendChild(image)
-    card.appendChild(cardTitle)
-    card.appendChild(cardImage)
-    card.appendChild(link)
-
-    card.appendChild(cardContent.render())
-    col.appendChild(card)
-
-    return col
-  }
-}
+// 
 
 class CardContent {
   constructor(desc) {
@@ -81,12 +40,4 @@ class CardContent {
     return cardContent
   }
 }
-function createCards(projects) {
-  const projectDiv = document.querySelector('#projects')
-  projects.forEach(obj => {
-    let card = new Card(obj)
-    console.log('this is card', card)
-    projectDiv.appendChild(card.render())
-  })
 
-}
