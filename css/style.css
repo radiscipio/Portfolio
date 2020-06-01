@@ -22,16 +22,17 @@ i {
   padding: 0;
 }
 
-div.col {
-  margin: 0 auto;
-  display: flex;
-  padding: 10px;
-}
-
 div.row {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  width: 400px;
+}
+
+div.col {
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
 }
 
 .card {
@@ -40,7 +41,6 @@ div.row {
   flex-wrap: wrap;
   justify-content: center;
   height: 100%;
-  width: 30%;
   margin: 15px;
   text-align: center;
   box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.2);
@@ -52,13 +52,23 @@ div.row {
 }
 
 .card .card-image img {
-  height: 180px;
+  height: 100%;
   object-fit: contain;
 }
 
 .fab, .fas {
   color: black;
   padding: 40px;
+}
+
+div.card-action a {
+  height: 30px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 
@@ -104,7 +114,7 @@ div.row {
 
   }
   img.img-mobile {
-    display: block;
+    display: none;
     border-radius: 80px;
     width: 150px;
     height: 150px;
