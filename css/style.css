@@ -1,5 +1,5 @@
 * {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 html {
@@ -11,7 +11,7 @@ div#navbarNavAltMarkup {
 }
 
 a#nav-buttons {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 nav.navbar {
@@ -65,7 +65,7 @@ div.col {
 
 @media (min-width: 200px) and (max-width: 600px) {
   #body {
-    background-color: #06293E;
+    background-color: #F0F0F0;
   }
   main {
     margin: 0px 23px;
@@ -115,7 +115,7 @@ div.col {
     display: none;
   }
   p.brand {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     padding: 15px;
     text-align: center;
   }
@@ -145,14 +145,14 @@ div.col {
   }
   p {
     padding: 0px 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   section {
     position: relative;
     top: 50px;
     left: 0;
     right: 0;
-    background-color: #06293E;
+    background-color: #F0F0F0;
   }
   div.form {
     margin: 30px 23px 0px 23px;
@@ -162,10 +162,9 @@ div.col {
     background-color: #F0F0F0;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     padding: 20px;
     position: relative;
-    top: -100px;
     border: 1px solid #06293E;
     border-radius: 8px;
   }
@@ -186,7 +185,7 @@ div.col {
     background-color: #06293E;
     border-radius: 8px;
     color: #F0F0F0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     height: 8%;
     margin: 10px;
     padding: 10px;
@@ -208,7 +207,7 @@ div.col {
 
 @media (min-width:601px) and (max-width: 1023px) {
   #body {
-    background-color: #06293E;
+    background-color: #F0F0F0;
   }
   main {
     margin: 0px 35px;
@@ -260,7 +259,7 @@ div.col {
   }
   p {
     padding: 5px 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   .icons {
     display: flex;
@@ -283,7 +282,7 @@ div.col {
     top: 50px;
     left: 0;
     right: 0;
-    background-color: #06293E;
+    background-color: #F0F0F0;
   }
   div.form {
     margin: 0px 23px -20px 23px;
@@ -331,7 +330,7 @@ div.col {
 
 @media (min-width: 1024px) {
   #body {
-    background-color: #06293E;
+    background-color:#F0F0F0;
   }
   a.navbar-brand {
     letter-spacing: 1px;
@@ -383,7 +382,7 @@ div.col {
   p {
     padding: 5px 35px;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
   }
   p.brand {
     font-size: 25px;
@@ -436,10 +435,10 @@ div.col {
     top: 50px;
     left: 0;
     right: 0;
-    background-color: #06293E;
+    background-color: #F0F0F0;
   }
   div.form {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     margin: 30px 23px 0px 23px;
     z-index: 1;
   }
@@ -449,7 +448,7 @@ div.col {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     padding: 20px;
     position: relative;
     top: -100px;
@@ -471,7 +470,7 @@ div.col {
     background-color: #06293E;
     border-radius: 8px;
     color: #F0F0F0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     height: 8%;
     margin: 10px;
     padding: 10px;
